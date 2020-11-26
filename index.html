@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Tishya's Hobbies</title>
+<style>
+
+body {
+	background-image: linear-gradient(to top, rgba(0,0,255,0.4) 0%, transparent 100%);
+	background-color: black;
+	color: white;
+}
+
+button {
+	padding: 10px 20px;
+	cursor: pointer;
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+}
+
+#img-box {
+	border: 2px solid white;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+h1 {
+	font-family: cursive;
+}
+
+#desc {
+	font-size: 20px;
+	font-family: cursive;
+}
+
+</style>
+</head>
+<body>
+
+<center>
+<h1> Tishya's Hobbies </h1>
+
+<p>
+</p>
+
+<img src="theatre.jpg" id="img-box" style="height:400px">
+<p id="desc">Theatre is Awesome</p>
+<button onclick="document.getElementById('img-box').src='theatre.jpg';document.getElementById('desc').innerHTML='Theatre is Awesome';">Theatre</button>
+<button onclick="document.getElementById('img-box').src='badminton.jpg';document.getElementById('desc').innerHTML='Best Sport Ever';">Badminton</button>
+<button onclick="document.getElementById('img-box').src='dance.jpg';document.getElementById('desc').innerHTML='Energy and Style';">Dancing</button>
+<button onclick="document.getElementById('img-box').src='art.jpg';document.getElementById('desc').innerHTML='Creativity and Expression';">Art</button>
+<button onclick="document.getElementById('img-box').src='writing.jpg';document.getElementById('desc').innerHTML='A Book is a Fantasy';">Writing</button>
+</center>
+</body>
+</html>
